@@ -1,0 +1,33 @@
+/**{
+	text-align: center;
+	color: green;
+}
+*/
+body{
+	/*background-color: #87ceeb;*/
+	/*background-image: url("../image/caption.jpg")*/
+	/*text-decoration-color: white;*/
+}
+
+}
+h1{
+	color:white;
+	text-align: center;
+	text-decoration-color: red;
+}
+div{
+	background-color: lightblue;
+	border:2px solid green;
+	border-radius: 5px;
+
+}
+
+p{
+	font-family: verdana;
+	font-size: 20px;
+	background-image: url("caption.jpg")
+}
+p.three{
+	border:6px solid blue;
+	border-style: dotted ;
+}

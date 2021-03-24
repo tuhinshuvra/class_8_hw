@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>HTML Form & Table</title>
+	</head>
+	<body>
+		<h1 align="center">HTML Form & Table</h1>
+		<h2 align="right"><a href="index.html">Go Home</a></h2>
+		<h2 align="center">HTML Form</h2>
+		
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ html form ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+	<div>
+		<form>
+			<fieldset>
+				<legend>About Yours:</legend>
+				<label for="fname">First name:</label>
+				<input type="text" id="fname" name="fname"><br><br>
+				<label for="lname">Last name:</label>
+				<input type="text" id="lname" name="lname"><br><br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br><br>
+				<label for="birthday">Birthday:</label>
+				<input type="date" id="birthday" name="birthday"><br><br>
+				<input type="submit" value="Submit">
+			</fieldset>
+		</form>
+	</div>
+		<hr><hr>
+		<div>
+		<form action="" >
+			<label for="fname">First Name:</label>
+			<input type="text" id="fname" name="fname"> <br><br>
+			
+			<label for="lname">Last Name:</label>
+			<input type="text" id="lname" name="lname"> <br><br>
+			
+			<label for="gender">Gender:</label>
+			<select name="gender" id="gender">
+				<option value="male">Male</option>
+				<option value="female">Female</option>
+				<option value="other">Other</option>
+			</select><br><br>
+			
+			<label for="contact">Contact No:</label>
+			<input type="text" id="contact" name="contact"> <br><br>
+			
+			<label for="practice">Practice Time</label>
+			<select name="practice" id="practice">
+				<option value="night"><time>10:00 PM to</time> <time>11:30 PM</time></option>
+				<option value="night"><time>06:00 AM to</time> <time>07:30 AM</time></option>
+				
+			</select><br><br>
+			<label for="topics">About Topics</label>
+			<textarea id="topics" name="topics" rows="3" cols="25"></textarea><br>
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~html table ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+		<hr><hr>
+		<div>
+		<h2 align="center">HTML Table</h2>
+		<table border="1px">
+			<thead>
+				<tr>
+					<th>Member</th>
+					<th>Donation</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Asgor Ahmed</td>
+					<td>$60000</td>
+				</tr>
+				<tr>
+					<td>Debakor Chandra</td>
+					<td>$70000</td>
+				</tr>
+				<tr>
+					<td>Moin Ahmed</td>
+					<td>$50000</td>
+				</tr>
+				<tr>
+					<td>Bikash Kumar</td>
+					<td>$40000</td>
+				</tr>
+			</tbody>
+			<tfoot>
+			<tr>
+				<td>Total</td>
+				<td>$220000</td>
+			</tr>
+			</tfoot>
+		</table>
+	</div>
+	</body>
+</html>
